@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ahmed — Portfolio</title>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Font (Google Poppins) and FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="theme-color" content="#071023">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a class="brand" href="#home">Ahmed</a>
+
+            <button class="hamburger" aria-label="menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+
+        <div class="container hero-content" data-aos="fade-up" data-aos-duration="900">
+            <div class="intro">
+                <h1>Hello! I'm <span>Ahmed</span></h1>
+                <p class="lead">Front-End Developer — I build fast and modern UI using HTML / CSS / JavaScript</p>
+
+                <div class="cta">
+                    <a class="btn" href="#" download>Download CV</a>
+                    <a class="btn ghost" href="#projects">View Projects</a>
+                </div>
+            </div>
+
+            <div class="hero-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="portrait">
+                    <div class="avatar">A</div>
+                </div>
+                <ul class="small-stats">
+                    <li><strong>7+</strong><span>Projects</span></li>
+                    <li><strong>1+</strong><span>Years</span></li>
+                    <li><strong>Freelance</strong><span>Available</span></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container grid-2">
+            <div data-aos="fade-right">
+                <h2>About Me</h2>
+                <p class="muted">
+                    Information System student — Passionate about front-end development and building fast, clean and
+                    modern user experiences.
+                    I love turning ideas into simple and enjoyable digital interfaces.
+                </p>
+
+                <ul class="about-list" data-aos="fade-up" data-aos-delay="100">
+                    <li><i class="fa fa-check"></i> Convert UI designs into pixel-perfect HTML/CSS</li>
+                    <li><i class="fa fa-check"></i> UI/UX Basics + Fully Responsive</li>
+                    <li><i class="fa fa-check"></i> Interactive JavaScript </li>
+                </ul>
+            </div>
+
+            <div data-aos="fade-left">
+                <div class="skills-visual" id="skills">
+                    <div class="skill-row">
+                        <div class="skill-title">HTML</div>
+                        <div class="skill-bar" data-skill="90"><span></span></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-title">CSS</div>
+                        <div class="skill-bar" data-skill="86"><span></span></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-title">JavaScript</div>
+                        <div class="skill-bar" data-skill="62"><span></span></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section dark-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card" data-aos="flip-left">
+                    <div class="thumb" aria-hidden="true" style="overflow: hidden;">
+                        <img src="imgs/product.jpeg" alt="" style="width:105%;">
+                    </div>
+                    <div class="card-body">
+                        <h3>Modern Product Preview</h3>
+                        <p>A smooth and responsive page for Product Preview.</p>
+                        <div class="card-actions">
+                            <a class="link" href="https://aelhosen911-hue.github.io/ProductPreview/"
+                                target="_blank">Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="link" href="https://github.com/aelhosen911-hue/ProductPreview"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="thumb" aria-hidden="true" style="overflow: hidden;">
+                        <img src="imgs/social.jpeg" alt="" style="width: 105%;">
+                    </div>
+                    <div class="card-body">
+                        <h3>Simple Social-Links</h3>
+                        <p>Simple and professional social-links for freelancers</p>
+                        <div class="card-actions">
+                            <a class="link" href="https://aelhosen911-hue.github.io/social-links/"
+                                target="_blank">Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="link" href="https://github.com/aelhosen911-hue/social-links"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="thumb" aria-hidden="true" style="overflow: hidden;">
+                        <img src="imgs/dashboard.jpeg" alt="" style="width: 105%;">
+                    </div>
+                    <div class="card-body">
+                        <h3>Responsive Dashboard</h3>
+                        <p>Responsive Dashboards includes Targets,Statistics,Last Project Progress,etc.</p>
+                        <div class="card-actions">
+                            <a class="link" href="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/"
+                                target="_blank">Preview
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="link" href="https://github.com/aelhosen911-hue/FormValidation-Responsive"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container grid-2">
+            <div data-aos="fade-right">
+                <h2>Contact Me</h2>
+                <p class="muted">If you have a project idea or need freelance work — feel free to send a message.</p>
+
+                <ul class="contact-info">
+                    <li><i class="fa fa-envelope"></i> youremail@example.com</li>
+                    <li><i class="fa fa-phone"></i> +20 1X XXX XXX</li>
+                    <li><i class="fa fa-map-marker"></i> Egypt</li>
+                </ul>
+            </div>
+
+            <form class="contact-form" data-aos="fade-left" onsubmit="submitForm(event)">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Your message..." required></textarea>
+                <button class="btn" type="submit">Send Message</button>
+                <p class="form-msg" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Ahmed — All Rights Reserved</p>
+            <div class="socials">
+                <a href="https://github.com/aelhosen911-hue" aria-label="GitHub" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed-elhosen-b493872a5/" aria-label="LinkedIn" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/elhosanyah?locale=ar_AR" aria-label="facebook" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({ once: true, duration: 800, offset: 80 });
+    </script>
+</body>
+
+</html>
